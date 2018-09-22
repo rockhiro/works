@@ -1,4 +1,4 @@
-'画像取得先 (web/共有フォルダ)
+'画像取得先をHTMLタグで返す (web/共有フォルダ)
 Private Function img_src(path As String, is_web As Boolean)
     Dim tmp As String
     tmp = path
